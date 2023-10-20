@@ -3,6 +3,7 @@ Projeto desenvolvido para o Santander Dev Week fins aprimorar conhecimentos de p
 
 # Diagrama de Classe
 
+```mermaid
 classDiagram
 Iphone <|-- ReprodutorMusical
 ReprodutorMusical: +reproduzirMusica() void
@@ -24,3 +25,4 @@ NavegadorInternet: +navegarNaInternet() void
 NavegadorInternet <|-- Chrome
 NavegadorInternet <|-- Firefox
 NavegadorInternet <|-- Opera
+```
